@@ -1,0 +1,24 @@
+<?php
+?>
+    <main>
+        <h2>Gallery</h2>
+        
+   <?php
+   
+  
+        
+        
+        foreach ($photos as $photo) 
+    {if($photo['visible']){?>
+        
+        <img src="..<?php echo $photo['path']; ?>" alt="" height="300" width="300"><?php
+    }}?>
+
+        
+    </main>
+    <footer>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php';?> 
+    </footer>
+        
+    </body>
+</html>
