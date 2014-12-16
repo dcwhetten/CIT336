@@ -1,0 +1,74 @@
+    <?php  
+
+
+session_start();
+
+require 'models/db.php';
+require 'models/navigation.php';
+require 'models/photos.php';
+require 'models/roles.php';
+require 'models/services.php';
+require 'models/user.php';
+
+include 'views/header.php';
+
+
+
+$action = strtolower(filter_input(INPUT_GET, 'action',FILTER_SANITIZE_STRING));
+
+switch ($action)
+{
+    case 'aboutus';
+        include'views/about_us.php';
+        break;
+
+
+    case 'contact';
+        include 'views/contact_us.php';
+        break;
+    
+    case 'comments';
+        include 'views/comments.php';
+        break;
+    
+    case'gallery';
+        $photos = getphotos();
+        include 'views/gallery.php';
+        break;
+    
+    case 'home';
+        include'views/home.php';
+        break;
+    
+    case 'login';
+        include 'views/login.php';
+        break;
+    
+    case 'loginsubmit':
+        $email = filter_input(INPUT_POST, 'emaillogin', FILTER_SANITIZE_EMAIL);
+	    $password = filter_input(INPUT_POST, 'passwordlogin', FILTER_SANITIZE_STRING);
+        if (LoginUser($email, $password)) {
+            header('Location: /?action=menu');
+            exit();
+        }
+        
+        include 'views/login.php';
+        break;
+   case 'menu':
+        $page = (CheckSession()) ? 'views/menu.php' : 'views/login.php';
+        include $page;
+        break;
+    
+        case 'services';
+        include'views/services.php';
+        break;
+    
+    case 'vendors';
+        include 'views/recommended_vendors.php';
+        break;
+    
+    default: 
+        include 'views/home.php';
+}
+ 
+   
