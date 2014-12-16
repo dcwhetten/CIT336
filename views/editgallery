@@ -1,0 +1,27 @@
+<?php
+?>
+    <body>
+        <h2>Edit Gallery</h2>
+    
+       
+    <main>
+        <table>
+            <tr>
+                <th>Photo</th>                
+                <th>&nbsp;</th>
+            </tr>
+        <?php foreach ($photos as $photo):?>
+            
+            <tr>
+                <td><img src="..<?php echo $photo['path']; ?>" alt="" height="300" width="300"></td>                
+                <td><form action="index.php" method="post" id="deleteuser">
+                        <input type="hidden" name="userID" value="<?php echo $photo['id']; ?>"/>
+                    </form>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+    </main>
+    </body>
+
+</html>
