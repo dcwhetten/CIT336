@@ -1,0 +1,36 @@
+<?php
+
+function getphotos() {
+    global $db;
+
+    try {
+        $sql = 'SELECT * FROM photos';
+
+        $stmt = $db->prepare($sql);
+        $stmt->execute();
+        $photolist = $stmt->fetchAll();
+        $stmt->closeCursor();
+    } catch (PDOException $exc) {
+        header('location: ./error.php');
+        exit;
+    }
+    if (!empty($photolist)) {
+        return $photolist;
+    } else {
+        return FALSE;
+    }
+}
+
+function insertphoto($path) {
+    global $db;
+
+    try {
+        $sql = 'INSERT INTO photos (path,visible,id) VALUES(:path,:visible :id)';
+        $stmnt = $db->prepare($sql);
+        $stmnt->execute(array(':path' => $path, ':visible' => 1, ':id'=>$id));
+        $stmnt->closeCursor();
+    } catch (PDOException $exc) {
+        header('location: ./error.php');
+        exit;
+    }
+}
