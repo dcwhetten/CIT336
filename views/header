@@ -1,0 +1,25 @@
+<?php
+$nav = GetPrimaryNavigationItems();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Daniel Whetten">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>Clear Choice Productions</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+    </head>
+    <header>
+        <a class="logo" href="../index.php"><img src="../images/logoweb.jpg" alt="Clear Choice Productions logo" height="200" width="100"></a> <h1>Clear Choice Productions</h1>
+        <nav>
+            <ul>
+               
+                <?php foreach($nav as $action => $text) : ?>
+                <li>
+                    <a href='/index.php?action=<?php echo $action ?>'><?php echo $text ?></a>
+                </li>
+                <?php endforeach; ?>
+            </ul>
+        </nav>
+    </header>
