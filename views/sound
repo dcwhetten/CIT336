@@ -1,0 +1,30 @@
+<?php
+?>
+       
+    <main>
+        <h2>Sound</h2>
+        <p> Sound is at the core of what Clear Choice productions is all about. 
+            With 15 years of sound experience behind us it is safe to say sound is our passion.
+            We use the newest and most up to date sound equipment. Our goal is to help your next concert or event sound the best possible.</p>
+        <p> We offer different sound services to help you with out with your next concert or event.</p>
+        <ul class="lists">
+            <li>Concert Sound Systems</li>
+            <li>Background music sound systems</li>
+            <li>Monitor mixing</li>
+        </ul>
+            
+           <p>If you don't see what you are looking for <a href='contact_us.php' title='view contact us page'>contact us</a> and we will do what we can to help you.</p>
+           <aside class="aside5">
+               <ul>
+                   <li><a href='quote.php' title='View Quote form'>Get a quote</a></li>
+                   <li><a href='gallery.php' title='view the Gallery page'>Pictures and Videos</a></li>     
+               </ul>
+           </aside>
+            
+     </main>
+    <footer>
+      
+    </footer>
+        
+    </body>
+</html>
