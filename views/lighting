@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     <meta charset="UTF-8">
+        <title>Lighting| CCPColorado.com| We offer many of the most popular event ligthing services, learn what makes our lighting services better.</title>
+        <link href="../css/stylesheet.css" type="text/css" rel="stylesheet" media="screen">
+     </head>
+    <body>
+        <header>
+         <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php';?>
+        </header>
+       
+    <main>
+        <h2>Lighting</h2>
+        <p>We offer many different lighting services to help set the perfect mood for your next event. We use only high quality up to date lighting for each and every event.
+        Below is a list of the many different lighting services we offer.</p>
+        <ul class="lists">
+            <li>Up-lighting</li>
+            <li>Lighted columns</li>
+            <li>Chandeliers</li>
+            <li>Stage Lighting</li>
+            <li>Party lighting</li>
+            <li>Computerized lighting control</li>
+            <li>Gobo projection</li>
+            <li>Accent lighting (strand lighting)</li>
+            <li>Tent lighting</li>
+        </ul>
+        <p>If you don't see what you are looking for <a href='contact_us.php' title='view contact us page'>contact us</a> and we will do what we can to help you.</p>
+        <aside class="aside4">
+                <ul>
+                   <li><a href='quote.php' title='View Quote form'>Get a quote</a></li>
+                   <li><a href='gallery.php' title='view the Gallery page'>Pictures and Videos</a></li>     
+               </ul>      
+        </aside>
+        
+    </main>
+    <footer>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php';?> 
+    </footer>
+        
+    </body>
+</html>
