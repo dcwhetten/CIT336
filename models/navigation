@@ -1,0 +1,29 @@
+<?php
+
+
+function GetPrimaryNavigationItems(){
+    $nav = array(
+        'home' => 'Home',
+        'aboutus' => 'About Us',
+        'contact' => 'Contact Us',
+        'services' => 'Services',
+        'gallery' => 'Gallery',
+        'vendors' => 'Recommended Vendors',
+        'comments'=> 'Comments',
+        'login' => 'Login',
+    );
+    
+
+    
+if (CheckSession())
+    {
+        $nav['menu'] = 'Menu';
+        $nav['logout'] = 'Log Out';
+    }
+    else
+    {
+        $nav['login'] = 'Log In';
+   
+    
+    return $nav;
+}}
