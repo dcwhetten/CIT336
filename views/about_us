@@ -1,0 +1,38 @@
+<?php
+
+?>
+    
+    <main>
+        <h2>About Us</h2>
+        <p>Clear Choice productions is a small family owned and operated Company. We have been serving the Denver Colorado area for 5 years.
+           The whole idea behind Clear Choice Productions was to create a company that can turn your ideas into reality and it still is to this day.
+           We pride ourselves on customer service and satisfaction. Our customers are our number one priority. 
+           Give us a <a href="/site_pages/contact_us.php" title="view contact us page">call today</a> so we can make your next event better than you dreamed it could be.</p>
+        <p>Check out all of the event <a href="/site_pages/services.php" title="View services page"> services we offer</a></P>
+    </main>
+
+    <aside id="givingback">
+        <h2>Giving Back</h2>
+        <p>Over the past several years we have supplied sound equipment and staff to a local church in Littleton for their Easter Program and other annual events.
+        We do this free of charge and are always looking for other opportunities to give back to the community.
+    
+    </aside>
+<aside id="employees">
+        <h2>Employees</h2>
+        <img src="../images/rex_headshot.jpg" alt="Picture of Rex Whetten" height="175" width="150">
+        <p>Rex Whetten (Owner)- Rex Whetten has worked in the entertainment industry for 15 years. 
+            He loves sound ,lighting, video and anything else that challenges him. He owns and Operates Clear Choice Production as well as Mr. DJ.
+            He started clear choice productions about 5 years ago with his son Daniel to focus more on the live sound, lighting and decor needs of current customers.
+            His main focus is the customer and that is what drives him to make every event perfect.</p>
+        <img src="../images/daniel_headshot.jpg" alt="Picture of Daniel Whetten" height="175" width="150">
+        <p> Daniel Whetten (Owner/Sound Engineer)- Daniel Whetten has worked with his dad Rex for many years. He started showing an interest in the entertainment industry when he was nine years old.
+        Rex would take him along to do weddings, birthday parties, and many other events. As he got older he became more interested in live sound, and lighting. 5 years ago along with his Dad started Clear Choice productions.
+        He is the head sound and lighting engineer. He loves creating the perfect atmosphere at every event thorough lighting sound and decor. The most important thing he has learned from working with his dad 
+        in the value of customer service.</p>
+    </aside>
+    <footer>
+   
+    </footer>
+        
+    </body>
+</html>
