@@ -1,0 +1,26 @@
+<?php
+?>
+       
+    <main>
+        <h2>Services</h2>
+        <p>We pride ourselves on offering the best services at the best prices. We offer a wide variety of services to help you set the perfect mood for your next event.</p>
+        <a href="../views/lighting.php" title="Go to lighting Page"><img src="../images/red_lighting.JPG" alt="Hanging truss with red lighting and chandaler" width="275"></a>
+        
+        <a href="../views//sound.php" title="Go to Sound Page"><img src="../images/concert_sound.jpg" alt="Concert sound" width="225"></a>
+        
+        <a href="../views/decor.php" title="Go to Decore Page"><img src="../images/decor_1.jpg" alt="wedding center piece" width="250"></a>
+        
+        <a href="../views/recording.php" title="Go to Recording Page"><img src="../images/recording_1.jpg" alt="recording sound board" width="180"></a>
+        
+        
+        <p><a href="../views/lighting.php" title="Go to lighting Page">LIGHTING</a></p>
+        <p><a href="../views/sound.php" title="Go to Sound Page">SOUND</a></p>
+        <p><a href="../views/decor.php" title="Go to Decore Page">DECOR</a></p>
+        <p><a href="../views/recording.php" title="Go to Recording Page">RECORDING</a></p>
+    </main>
+    <footer>
+        
+    </footer>
+        
+    </body>
+</html>
