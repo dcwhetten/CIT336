@@ -1,0 +1,21 @@
+<?php
+?>
+    <main>
+        <h2>Recommended Vendors</h2>
+        <p>We work with many different vendors at many different types of events. Some vendors are very good and some are not so good.
+            Below is a list of vendors we have worked with and found to be very good.  As we find good vendors we will add them to this list.</p>
+        
+        <ul class="lists">
+            <li><a href="http://www.mymrdj.com" title="View Mr. DJ's website">Mr. DJ</a>
+            <li><a href="http://www.gj5starevents.com" title="View five star events website">Five Star Event Rentals</a></li>
+        </ul>
+       
+      
+    </main>
+    
+    <footer>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php';?> 
+    </footer>
+        
+    </body>
+</html>
