@@ -1,0 +1,16 @@
+<?php
+
+?>
+ <main>
+     <h2>Home Page</h2>
+    <img class="picture" src="../images/purpleandtealuplighting.jpg" alt="Purple and teal up-lighting" height="300" width="500">
+     <p>Clear Choice Productions is your clear choice for all of your production needs. We have been serving the Denver Colorado area for 5 years. Let us help you make your next event exactly what you envision.</p>
+ 
+ 
+ </main> 
+
+  <footer>
+  
+  </footer>
+    </body> 
+</html> 
