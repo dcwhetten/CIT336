@@ -1,0 +1,30 @@
+<?php
+?>
+       
+    <main>
+        <h2>Decor</h2>
+        <p>Every detail of your event is important and we are here to help. We are now offering decor rental and setup to help you make your event perfect.</p>
+        <p> here is a list of the decor items we offer.</p>
+        <ul class="lists">
+            <li>Pipe and Drape</li>
+            <li>Table cloths</li>
+            <li>Chair Covers</li>
+            <li>center pieces</li>
+            <li> Table and chair rental</li>
+            <li>false celling instalation</li>
+            <li>Dance floors</li>
+        </ul>
+        <p>If you don't see what you are looking for <a href='contact_us.php' title='view contact us page'>contact us</a> and we will do what we can to help you.</p>
+        <aside class="aside3">
+           <ul>
+                   <li><a href='quote.php' title='View Quote form'>Get a quote</a></li>
+                   <li><a href='gallery.php' title='view the Gallery page'>Pictures and Videos</a></li>     
+           </ul>    
+        </aside>
+    </main>
+    <footer>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php';?> 
+    </footer>
+        
+    </body>
+</html>
