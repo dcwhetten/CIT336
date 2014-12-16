@@ -1,0 +1,36 @@
+<?php
+
+?>
+    <body>
+        
+       
+    <main>
+        <h2>Comments</h2>
+        <p>Our customers are our number one priority, leave us a positive comment and read the comments of others.</p>
+        
+    </main>
+    
+    <section>
+        <form method="Get" action="index.php" id="comment">
+
+  <fieldset>
+
+      <label for="action">Comment</label>
+      
+      <input type="text" name="comment" id="comment" value="<?php echo $comment; ?>">
+      
+   <label for="action">&nbsp;</label>
+
+   <input type="submit" name="action" id="action" value="Send">
+
+  </fieldset>
+
+</form> 
+    </section>
+   
+    <footer>
+       
+    </footer>
+        
+    </body>
+</html>
