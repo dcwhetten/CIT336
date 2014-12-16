@@ -1,0 +1,4 @@
+<?php
+
+define('ROLE_ID_USER', 0);
+define('ROLE_ID_ADMIN', 1);
